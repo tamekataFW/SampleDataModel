@@ -9,7 +9,7 @@
 
 ###DDLサンプル集
 
-https://gist.github.com/tamekataFW/6781f76cff023075357b
+[DDLサンプル集](https://github.com/tamekataFW/SampleDataModel/wiki/DDL%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E9%9B%86 "DDL.md")
 
 ###ライセンス
 
