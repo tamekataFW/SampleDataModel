@@ -14,5 +14,5 @@
 ###ライセンス
 
 - Copyright(c) 2015 試そう、語ろう、フレームワーク運営委員会
-- 本サイト情報は[MIT License](http://opensource.org/licenses/mit-license.php "MIT License")
+- 本サイト情報は[MIT License](https://github.com/tamekataFW/SampleDataModel/blob/master/LICENSE "MIT License")
 のもとで公開しております。
