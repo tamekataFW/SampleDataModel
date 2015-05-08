@@ -11,9 +11,9 @@ FD
 /RECORD
 'データ項目名--------, Field Name-------, Data Type, Attribute, KEY, Remarks
 取引先番号           , CSTMR_NO         , V10      , NOT NULL , PRI,        
-取引先_名称          , CSTMR__NM        , V50      , NOT NULL ,    ,        
+取引先_名称          , CSTMR_NM        , V50      , NOT NULL ,    ,        
 本店所在地           , HO_ADDR          , V100     ,          ,    ,        
-取引先_組織区分コード, CSTMR__ORG_DIV_CD, V20      ,          ,    ,        
+取引先_組織区分コード, CSTMR_ORG_DIV_CD, V20      ,          ,    ,        
 
 /DATE   = 2015-04-21
 /UPDATE = 2015-05-07,     ,
@@ -22,7 +22,7 @@ FD
 /FILE = T_CSTMR_TAC, 取引先_取引条件, DR
 /RECORD
 'データ項目名----------, Field Name---, Data Type, Attribute, KEY-, Remarks
-取引先_取引条件設定番号, CSTMR__TAC_NO, I        , NOT NULL , PRI ,        
+取引先_取引条件設定番号, CSTMR_TAC_NO, I        , NOT NULL , PRI ,        
 取引先番号             , CSTMR_NO     , V10      , NOT NULL , ALT1,        
 取引区分コード         , TRD_DIV_CD   , V1       , NOT NULL ,     ,        
 締日                   , CLS_D        , I        ,          ,     ,        
@@ -37,7 +37,7 @@ FD
 /RECORD
 'データ項目名----------, Field Name---, Data Type, Attribute, KEY-, Remarks
 取引条件明細ID         , TAC_DTL_ID   , I        , NOT NULL , PRI ,        
-取引先_取引条件設定番号, CSTMR__TAC_NO, I        , NOT NULL , ALT1,        
+取引先_取引条件設定番号, CSTMR_TAC_NO, I        , NOT NULL , ALT1,        
 入金方法区分コード     , RCPT_DIV_CD  , V1       , NOT NULL ,     ,        
 手形サイト             , BILL_SGHT    , I        ,          ,     ,        
 取引口座管理番号       , TRDACCNT_ID  , I        ,          ,     ,        
