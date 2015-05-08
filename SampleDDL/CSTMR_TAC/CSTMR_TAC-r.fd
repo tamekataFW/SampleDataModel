@@ -19,7 +19,7 @@ FD
 /UPDATE = 2015-05-07,     ,
 /END
 FD
-/FILE = T_CSTMR__TAC, 取引先_取引条件, DR
+/FILE = T_CSTMR_TAC, 取引先_取引条件, DR
 /RECORD
 'データ項目名----------, Field Name---, Data Type, Attribute, KEY-, Remarks
 取引先_取引条件設定番号, CSTMR__TAC_NO, I        , NOT NULL , PRI ,        
@@ -27,13 +27,13 @@ FD
 取引区分コード         , TRD_DIV_CD   , V1       , NOT NULL ,     ,        
 締日                   , CLS_D        , I        ,          ,     ,        
 入金サイト             , PYTRM        , I        ,          ,     ,        
-/DETAIL = T_CSTMR__TAC_DTL
+/DETAIL = T_CSTMR_TAC_DTL
 
 /DATE   = 2015-05-07
 /UPDATE = 2015-05-07,     ,
 /END
 FD
-/FILE = T_CSTMR__TAC_DTL, 取引先_取引条件明細, DR
+/FILE = T_CSTMR_TAC_DTL, 取引先_取引条件明細, DR
 /RECORD
 'データ項目名----------, Field Name---, Data Type, Attribute, KEY-, Remarks
 取引条件明細ID         , TAC_DTL_ID   , I        , NOT NULL , PRI ,        
